@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-03-18)
 
 **Core value:** Человек с лендинга за один клик попадает в Telegram-бот и регистрируется на эфир; данные автоматически попадают в Google Таблицу
-**Current focus:** Phase 1 — Google Sheets
+**Current focus:** Phase 1 — Landing Page
 
 ## Current Position
 
-Phase: 1 of 4 (Google Sheets)
+Phase: 1 of 4 (Landing Page)
 Plan: 0 of TBD in current phase
 Status: Ready to plan
-Last activity: 2026-03-18 — Roadmap created, all 27 v1 requirements mapped to 4 phases
+Last activity: 2026-03-18 — Roadmap revised: порядок фаз изменён на Landing → Sheets → Bot → Broadcasts
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -46,7 +46,7 @@ Recent decisions affecting current work:
 - [Init]: GitHub Pages для деплоя лендинга — статика, vanilla HTML/CSS/JS
 - [Init]: Дизайн лендинга через навык frontend-design на Opus 4.6 — обязательно
 - [Init]: Для изображений — промпты для Нана Банана, пока placeholder в коде
-- [Init]: Порядок сборки: Sheets → Bot → Landing → Reminders (жёсткая цепочка зависимостей)
+- [Revised 2026-03-18]: Порядок сборки изменён: Landing → Sheets → Bot → Reminders. Лендинг идёт первым с placeholder deep link; после создания воронки SaleBot (Phase 3) placeholder заменяется на реальный username бота.
 
 ### Pending Todos
 
@@ -54,12 +54,13 @@ None yet.
 
 ### Blockers/Concerns
 
-- [Phase 2]: Bot @username неизвестен до создания воронки в SaleBot — нужен перед финализацией deep link в лендинге
-- [Phase 3]: Ссылка на трансляцию неизвестна до дня эфира — MAIL-03 использует placeholder до получения URL
+- [Phase 1]: Deep link в лендинге — placeholder до Phase 3; задеплоить реальный URL после создания воронки SaleBot
+- [Phase 3]: Bot @username неизвестен до создания воронки в SaleBot — обновить deep link в лендинге по завершении Phase 3
+- [Phase 4]: Ссылка на трансляцию неизвестна до дня эфира — MAIL-03 использует placeholder до получения URL
 - [Phase 4]: Ссылка на запись эфира появится после события — MAIL-04 настраивается с placeholder, обновляется после 24 марта
 
 ## Session Continuity
 
 Last session: 2026-03-18
-Stopped at: Roadmap created — все 27 требований распределены по 4 фазам, файлы ROADMAP.md, STATE.md, REQUIREMENTS.md записаны
+Stopped at: Roadmap revised — порядок фаз изменён на Landing (1) → Sheets (2) → Bot (3) → Broadcasts (4), все 28 требований перемаплены
 Resume file: None
