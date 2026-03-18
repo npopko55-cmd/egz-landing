@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кто будет расти в 2026 году — Бесплатный эфир EGZ Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       SECTION 1 — HERO
+       ============================================================ -->
+  <section class="hero">
+    <div class="container">
+      <header>
+        <img src="assets/egz-logo.svg" alt="EGZ Academy" class="logo" onerror="this.style.display='none'">
+      </header>
+
+      <div class="hero-layout">
+        <div class="hero-content">
+          <h1 class="section-display reveal">Кто будет расти в 2026 году</h1>
+          <p class="hero-sub reveal">Одни маркетологи зарабатывают 500к–1 млн в месяц. Другие — топчутся на месте годами. Разница не в знаниях — в системе.</p>
+          <div class="reveal">
+            <span class="meta-badge">24 марта · 19:00 МСК · Бесплатно</span>
+          </div>
+          <div class="hero-speaker reveal">
+            <div class="avatar-wrap">
+              <img src="assets/vadim-photo.jpg" alt="Вадим Сорокин, основатель EGZ Academy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="avatar-initials">ВС</div>
+            </div>
+            <p class="speaker-credit">Вадим Сорокин, основатель EGZ</p>
+          </div>
+          <button class="btn-primary hero-cta reveal" onclick="scrollToFinal()">Зарегистрироваться</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 2 — PROGRAM
+       ============================================================ -->
+  <section class="program" id="program">
+    <div class="container">
+      <h2 class="section-heading reveal">Что разберём на эфире</h2>
+      <ol class="program-list">
+        <li class="program-item reveal">Позиционирование: как маркетологу оторваться от конкурентов и стать выбором №1 в своей нише</li>
+        <li class="program-item reveal">Лидген: системный поток входящих заявок без зависимости от сарафана</li>
+        <li class="program-item reveal">Продажи: как закрывать клиентов на высокий чек без скидок и давления</li>
+        <li class="program-item reveal">Удержание клиентов: LTV и повторные продажи — из клиента в партнёра</li>
+        <li class="program-item reveal">CRM и воронка: автоматизировать рутину и масштабировать без найма</li>
+      </ol>
+      <button class="btn-primary reveal" onclick="scrollToFinal()">Зарегистрироваться</button>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 3 — PAIN POINTS
+       ============================================================ -->
+  <section class="pain-points" id="pain-points">
+    <div class="container">
+      <h2 class="section-heading reveal">Кому стоит прийти</h2>
+      <ul class="pain-list">
+        <li class="pain-item reveal">Много знаешь, но мало зарабатываешь</li>
+        <li class="pain-item reveal">Нет команды или команда совсем маленькая</li>
+        <li class="pain-item reveal">Нет сильного оффера и сильной упаковки</li>
+        <li class="pain-item reveal">Генерируешь меньше 2-3 заявок в месяц на свои услуги</li>
+        <li class="pain-item reveal">Тебя используют как руки а не как стратега</li>
+      </ul>
+      <button class="btn-primary reveal" onclick="scrollToFinal()">Зарегистрироваться</button>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 4 — FINAL BLOCK
+       ============================================================ -->
+  <section class="final-block" id="final-block">
+    <div class="container">
+      <h2 class="section-heading reveal">Успей зарегистрироваться — до эфира осталось</h2>
+      <div class="countdown-row reveal">
+        <div class="countdown-cell">
+          <span class="countdown-digit" id="cnt-days">00</span>
+          <span class="countdown-label">ДНИ</span>
+        </div>
+        <div class="countdown-cell">
+          <span class="countdown-digit" id="cnt-hours">00</span>
+          <span class="countdown-label">ЧАС</span>
+        </div>
+        <div class="countdown-cell">
+          <span class="countdown-digit" id="cnt-minutes">00</span>
+          <span class="countdown-label">МИН</span>
+        </div>
+        <div class="countdown-cell">
+          <span class="countdown-digit" id="cnt-seconds">00</span>
+          <span class="countdown-label">СЕК</span>
+        </div>
+      </div>
+      <span class="msk-tag">МСК</span>
+
+      <div class="post-deadline" style="display:none">
+        <p>Эфир уже идёт!</p>
+      </div>
+
+      <div class="final-cta-stack">
+        <!-- TODO Phase 3: replace <botname> with real bot username -->
+        <a href="https://t.me/<botname>?start=landing" class="btn-primary reveal">Зарегистрироваться в боте</a>
+        <a href="https://t.me/vadimsorokin_egz" class="btn-ghost reveal">Задать вопрос</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STICKY CTA BAR
+       ============================================================ -->
+  <div class="sticky-cta">
+    <!-- TODO Phase 3: replace <botname> with real bot username -->
+    <a href="https://t.me/<botname>?start=landing" class="btn-primary sticky-btn">Зарегистрироваться</a>
+  </div>
+
+  <noscript>Включите JavaScript, чтобы таймер работал корректно.</noscript>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
