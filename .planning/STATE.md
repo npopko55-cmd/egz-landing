@@ -1,3 +1,19 @@
+---
+gsd_state_version: 1.0
+milestone: v1.0
+milestone_name: milestone
+status: planning
+stopped_at: Phase 1 context gathered
+last_updated: "2026-03-18T12:20:03.929Z"
+last_activity: "2026-03-18 — Roadmap revised: порядок фаз изменён на Landing → Sheets → Bot → Broadcasts"
+progress:
+  total_phases: 4
+  completed_phases: 0
+  total_plans: 0
+  completed_plans: 0
+  percent: 0
+---
+
 # Project State
 
 ## Project Reference
@@ -61,6 +77,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-18
-Stopped at: Roadmap revised — порядок фаз изменён на Landing (1) → Sheets (2) → Bot (3) → Broadcasts (4), все 28 требований перемаплены
-Resume file: None
+Last session: 2026-03-18T12:20:03.922Z
+Stopped at: Phase 1 context gathered
+Resume file: .planning/phases/01-landing-page/01-CONTEXT.md
