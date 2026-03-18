@@ -211,6 +211,9 @@ img {
 
 .logo {
   height: 28px;
+  width: auto;
+  flex-shrink: 0;
+  overflow: visible;
 }
 
 .logo-text {
