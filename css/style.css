@@ -1072,11 +1072,11 @@ img {
    ============================================================= */
 @media (min-width: 1024px) {
   .hero-right {
-    width: 400px;
+    width: 380px;
   }
 
-  .hero-sculpture {
-    max-width: 400px;
+  .hero-portrait {
+    max-width: 380px;
   }
 
   .card-icon {
