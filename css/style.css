@@ -1047,6 +1047,19 @@ img {
    LARGE DESKTOP (1024px+)
    ============================================================= */
 @media (min-width: 1024px) {
+  .hero-right {
+    width: 400px;
+  }
+
+  .hero-sculpture {
+    max-width: 400px;
+  }
+
+  .card-icon {
+    width: 72px;
+    height: 72px;
+  }
+
   .program-grid {
     grid-template-columns: repeat(3, 1fr);
   }
