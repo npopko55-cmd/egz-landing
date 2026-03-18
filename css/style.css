@@ -418,17 +418,38 @@ img {
   display: none;
 }
 
-.hero-sculpture {
+/* Hero portrait with glow and mask */
+.hero-portrait {
+  position: relative;
   width: 100%;
-  max-width: 380px;
-  height: auto;
-  filter: drop-shadow(0 0 60px rgba(123, 104, 238, 0.3));
-  animation: sculpture-float 6s ease-in-out infinite;
+  max-width: 340px;
 }
 
-@keyframes sculpture-float {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  50% { transform: translateY(-15px) rotate(2deg); }
+.hero-portrait-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  filter: grayscale(30%) contrast(1.1);
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.hero-portrait-glow {
+  position: absolute;
+  inset: -20px;
+  border-radius: var(--radius-lg);
+  background: radial-gradient(circle at 30% 40%, var(--accent-glow) 0%, transparent 60%);
+  z-index: 0;
+  filter: blur(40px);
+  animation: portrait-glow 4s ease-in-out infinite alternate;
+}
+
+@keyframes portrait-glow {
+  0% { opacity: 0.5; transform: scale(1); }
+  100% { opacity: 0.8; transform: scale(1.05); }
 }
 
 /* Speaker card (larger photo version) */
