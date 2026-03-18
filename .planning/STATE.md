@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-landing-page-01-01-PLAN.md
-last_updated: "2026-03-18T13:09:09.984Z"
+stopped_at: Completed 01-landing-page-01-02-PLAN.md (awaiting human verify checkpoint)
+last_updated: "2026-03-18T13:14:28.459Z"
 last_activity: "2026-03-18 — Roadmap revised: порядок фаз изменён на Landing → Sheets → Bot → Broadcasts"
 progress:
   total_phases: 4
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 2
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -51,6 +51,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01-landing-page P01 | 3 | 2 tasks | 3 files |
+| Phase 01-landing-page P02 | 3 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -65,6 +66,7 @@ Recent decisions affecting current work:
 - [Init]: Для изображений — промпты для Нана Банана, пока placeholder в коде
 - [Revised 2026-03-18]: Порядок сборки изменён: Landing → Sheets → Bot → Reminders. Лендинг идёт первым с placeholder deep link; после создания воронки SaleBot (Phase 3) placeholder заменяется на реальный username бота.
 - [Phase 01-landing-page]: CSS custom properties for entire design system on :root; mobile-first breakpoints; sticky CTA via translateY(100%); no backdrop-filter for Telegram WebView compat
+- [Phase 01-landing-page]: setInterval over requestAnimationFrame for countdown; IntersectionObserver over scroll event listener; +03:00 suffix hardcoded for Moscow time; scrollToFinal on window for onclick= handlers
 
 ### Pending Todos
 
@@ -79,6 +81,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-18T13:09:09.982Z
-Stopped at: Completed 01-landing-page-01-01-PLAN.md
+Last session: 2026-03-18T13:14:28.456Z
+Stopped at: Completed 01-landing-page-01-02-PLAN.md (awaiting human verify checkpoint)
 Resume file: None

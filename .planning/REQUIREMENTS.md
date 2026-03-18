@@ -10,7 +10,7 @@
 - [x] **LAND-01**: Тёмная тема с премиальным дизайном на уровне референсов (Vortek VR, Terrixa, FRZN)
 - [x] **LAND-02**: Mobile-first responsive вёрстка (основной трафик из Telegram = телефон)
 - [x] **LAND-03**: Дизайн-решения на основе референсов (Vortek VR, Terrixa, FRZN) — не навязывать минимализм
-- [ ] **LAND-04**: Плавные scroll-анимации (появление блоков при скролле)
+- [x] **LAND-04**: Плавные scroll-анимации (появление блоков при скролле)
 - [x] **LAND-05**: Дизайн через навык frontend-design на Opus 4.6
 - [x] **LAND-16**: Где нужны генерации изображений — промпт-инженер готовит промпты для Нана Банана, пока ставит placeholder
 
@@ -20,15 +20,15 @@
 - [x] **LAND-07**: Блок «Что разберём на эфире»: текст-подводка + 5 пунктов программы + CTA
 - [x] **LAND-08**: Блок «Кому стоит прийти»: 5 болей ЦА + CTA
 - [x] **LAND-09**: Финальный блок: countdown-таймер до 24 марта 19:00 МСК, основная CTA → бот, вторичная CTA «Задать вопрос» → ЛС Вадима
-- [ ] **LAND-10**: Sticky CTA-кнопка внизу экрана на мобильном
+- [x] **LAND-10**: Sticky CTA-кнопка внизу экрана на мобильном
 
 ### Landing Page — Technical
 
-- [ ] **LAND-11**: Countdown-таймер с явным указанием таймзоны МСК (+03:00)
-- [ ] **LAND-12**: Все CTA-кнопки ведут на scroll к финальному блоку, оттуда deep link в Telegram-бот
-- [ ] **LAND-13**: Deep link формат: `https://t.me/<botname>?start=landing` (placeholder в Phase 1, реальный — в Phase 3)
+- [x] **LAND-11**: Countdown-таймер с явным указанием таймзоны МСК (+03:00)
+- [x] **LAND-12**: Все CTA-кнопки ведут на scroll к финальному блоку, оттуда deep link в Telegram-бот
+- [x] **LAND-13**: Deep link формат: `https://t.me/<botname>?start=landing` (placeholder в Phase 1, реальный — в Phase 3)
 - [x] **LAND-14**: Vanilla HTML/CSS/JS без фреймворков и сборщиков
-- [ ] **LAND-15**: Деплой на GitHub Pages с файлом `.nojekyll`
+- [x] **LAND-15**: Деплой на GitHub Pages с файлом `.nojekyll`
 
 ### Telegram Bot (SaleBot)
 
@@ -83,18 +83,18 @@
 | LAND-01 | Phase 1 | Complete |
 | LAND-02 | Phase 1 | Complete |
 | LAND-03 | Phase 1 | Complete |
-| LAND-04 | Phase 1 | Pending |
+| LAND-04 | Phase 1 | Complete |
 | LAND-05 | Phase 1 | Complete |
 | LAND-06 | Phase 1 | Complete |
 | LAND-07 | Phase 1 | Complete |
 | LAND-08 | Phase 1 | Complete |
 | LAND-09 | Phase 1 | Complete |
-| LAND-10 | Phase 1 | Pending |
-| LAND-11 | Phase 1 | Pending |
-| LAND-12 | Phase 1 | Pending |
-| LAND-13 | Phase 1 | Pending |
+| LAND-10 | Phase 1 | Complete |
+| LAND-11 | Phase 1 | Complete |
+| LAND-12 | Phase 1 | Complete |
+| LAND-13 | Phase 1 | Complete |
 | LAND-14 | Phase 1 | Complete |
-| LAND-15 | Phase 1 | Pending |
+| LAND-15 | Phase 1 | Complete |
 | LAND-16 | Phase 1 | Complete |
 | SHEET-01 | Phase 2 | Pending |
 | SHEET-02 | Phase 2 | Pending |

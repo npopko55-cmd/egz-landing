@@ -12,7 +12,7 @@
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Landing Page** - Разработать и задеплоить лендинг: дизайн через frontend-design, 4 блока, countdown, CTA → бот (placeholder deep link)
+- [x] **Phase 1: Landing Page** - Разработать и задеплоить лендинг: дизайн через frontend-design, 4 блока, countdown, CTA → бот (placeholder deep link) (completed 2026-03-18)
 - [ ] **Phase 2: Google Sheets** - Создать таблицу-регистратор и подключить интеграцию с SaleBot
 - [ ] **Phase 3: Telegram Bot** - Настроить воронку SaleBot: welcome, регистрация, подтверждение, запись в Таблицу; обновить placeholder в лендинге на реальный deep link
 - [ ] **Phase 4: Reminder Broadcasts** - Настроить рассылки: T-24h, T-1h, T+0 ссылка на эфир, T+24h запись + CTA
@@ -75,7 +75,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Landing Page | 1/2 | In Progress|  |
+| 1. Landing Page | 2/2 | Complete   | 2026-03-18 |
 | 2. Google Sheets | 0/TBD | Not started | - |
 | 3. Telegram Bot | 0/TBD | Not started | - |
 | 4. Reminder Broadcasts | 0/TBD | Not started | - |
