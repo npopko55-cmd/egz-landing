@@ -1082,15 +1082,7 @@ img {
   }
 
   .program-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .program-grid .program-card:nth-child(4) {
-    grid-column: auto;
-  }
-
-  .program-grid .program-card:last-child {
-    grid-column: auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .pain-grid {
