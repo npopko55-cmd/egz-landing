@@ -26,7 +26,7 @@
 
 - [ ] **LAND-11**: Countdown-таймер с явным указанием таймзоны МСК (+03:00)
 - [ ] **LAND-12**: Все CTA-кнопки ведут на scroll к финальному блоку, оттуда deep link в Telegram-бот
-- [ ] **LAND-13**: Deep link формат: `https://t.me/<botname>?start=landing`
+- [ ] **LAND-13**: Deep link формат: `https://t.me/<botname>?start=landing` (placeholder в Phase 1, реальный — в Phase 3)
 - [ ] **LAND-14**: Vanilla HTML/CSS/JS без фреймворков и сборщиков
 - [ ] **LAND-15**: Деплой на GitHub Pages с файлом `.nojekyll`
 
@@ -80,30 +80,30 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SHEET-01 | Phase 1 | Pending |
-| SHEET-02 | Phase 1 | Pending |
-| BOT-01 | Phase 2 | Pending |
-| BOT-02 | Phase 2 | Pending |
-| BOT-03 | Phase 2 | Pending |
-| BOT-04 | Phase 2 | Pending |
-| BOT-05 | Phase 2 | Pending |
-| BOT-06 | Phase 2 | Pending |
-| LAND-01 | Phase 3 | Pending |
-| LAND-02 | Phase 3 | Pending |
-| LAND-03 | Phase 3 | Pending |
-| LAND-04 | Phase 3 | Pending |
-| LAND-05 | Phase 3 | Pending |
-| LAND-06 | Phase 3 | Pending |
-| LAND-07 | Phase 3 | Pending |
-| LAND-08 | Phase 3 | Pending |
-| LAND-09 | Phase 3 | Pending |
-| LAND-10 | Phase 3 | Pending |
-| LAND-11 | Phase 3 | Pending |
-| LAND-12 | Phase 3 | Pending |
-| LAND-13 | Phase 3 | Pending |
-| LAND-14 | Phase 3 | Pending |
-| LAND-15 | Phase 3 | Pending |
-| LAND-16 | Phase 3 | Pending |
+| LAND-01 | Phase 1 | Pending |
+| LAND-02 | Phase 1 | Pending |
+| LAND-03 | Phase 1 | Pending |
+| LAND-04 | Phase 1 | Pending |
+| LAND-05 | Phase 1 | Pending |
+| LAND-06 | Phase 1 | Pending |
+| LAND-07 | Phase 1 | Pending |
+| LAND-08 | Phase 1 | Pending |
+| LAND-09 | Phase 1 | Pending |
+| LAND-10 | Phase 1 | Pending |
+| LAND-11 | Phase 1 | Pending |
+| LAND-12 | Phase 1 | Pending |
+| LAND-13 | Phase 1 | Pending |
+| LAND-14 | Phase 1 | Pending |
+| LAND-15 | Phase 1 | Pending |
+| LAND-16 | Phase 1 | Pending |
+| SHEET-01 | Phase 2 | Pending |
+| SHEET-02 | Phase 2 | Pending |
+| BOT-01 | Phase 3 | Pending |
+| BOT-02 | Phase 3 | Pending |
+| BOT-03 | Phase 3 | Pending |
+| BOT-04 | Phase 3 | Pending |
+| BOT-05 | Phase 3 | Pending |
+| BOT-06 | Phase 3 | Pending |
 | MAIL-01 | Phase 4 | Pending |
 | MAIL-02 | Phase 4 | Pending |
 | MAIL-03 | Phase 4 | Pending |
@@ -116,4 +116,4 @@
 
 ---
 *Requirements defined: 2026-03-18*
-*Last updated: 2026-03-18 — traceability completed, all requirements mapped*
+*Last updated: 2026-03-18 — phase order revised: Landing (1) → Sheets (2) → Bot (3) → Broadcasts (4)*
