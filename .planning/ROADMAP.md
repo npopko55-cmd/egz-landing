@@ -29,7 +29,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Нажатие любой CTA-кнопки (hero, mid, final) ведёт в Telegram-бот по deep link (placeholder `?start=landing` — будет обновлён в Phase 3)
   4. Sticky CTA-кнопка видна внизу экрана на мобильном без скролла
   5. GitHub Pages деплой активен, `.nojekyll` файл присутствует в корне репозитория
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — HTML structure and CSS design system (4 blocks, copywriting, all component styles)
+- [ ] 01-02-PLAN.md — JavaScript behaviors and deploy infrastructure (countdown, scroll-reveal, sticky CTA, .nojekyll)
 
 ### Phase 2: Google Sheets
 **Goal**: Google Таблица с правильной схемой подключена к SaleBot и готова принимать данные регистраций
