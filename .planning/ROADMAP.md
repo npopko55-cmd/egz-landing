@@ -75,7 +75,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Landing Page | 0/TBD | Not started | - |
+| 1. Landing Page | 1/2 | In Progress|  |
 | 2. Google Sheets | 0/TBD | Not started | - |
 | 3. Telegram Bot | 0/TBD | Not started | - |
 | 4. Reminder Broadcasts | 0/TBD | Not started | - |

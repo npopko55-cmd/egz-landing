@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 1 UI-SPEC approved
-last_updated: "2026-03-18T12:33:02.455Z"
+stopped_at: Completed 01-landing-page-01-01-PLAN.md
+last_updated: "2026-03-18T13:09:09.984Z"
 last_activity: "2026-03-18 — Roadmap revised: порядок фаз изменён на Landing → Sheets → Bot → Broadcasts"
 progress:
   total_phases: 4
   completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
+  total_plans: 2
+  completed_plans: 1
   percent: 0
 ---
 
@@ -50,6 +50,7 @@ Progress: [░░░░░░░░░░] 0%
 - Trend: -
 
 *Updated after each plan completion*
+| Phase 01-landing-page P01 | 3 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -63,6 +64,7 @@ Recent decisions affecting current work:
 - [Init]: Дизайн лендинга через навык frontend-design на Opus 4.6 — обязательно
 - [Init]: Для изображений — промпты для Нана Банана, пока placeholder в коде
 - [Revised 2026-03-18]: Порядок сборки изменён: Landing → Sheets → Bot → Reminders. Лендинг идёт первым с placeholder deep link; после создания воронки SaleBot (Phase 3) placeholder заменяется на реальный username бота.
+- [Phase 01-landing-page]: CSS custom properties for entire design system on :root; mobile-first breakpoints; sticky CTA via translateY(100%); no backdrop-filter for Telegram WebView compat
 
 ### Pending Todos
 
@@ -77,6 +79,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-18T12:33:02.448Z
-Stopped at: Phase 1 UI-SPEC approved
-Resume file: .planning/phases/01-landing-page/01-UI-SPEC.md
+Last session: 2026-03-18T13:09:09.982Z
+Stopped at: Completed 01-landing-page-01-01-PLAN.md
+Resume file: None
