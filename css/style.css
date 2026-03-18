@@ -1039,10 +1039,6 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .program-grid .program-card:last-child {
-    grid-column: 1 / -1;
-  }
-
   .pain-grid {
     grid-template-columns: 1fr;
   }
