@@ -979,6 +979,17 @@ img {
     display: flex;
   }
 
+  .hero-split {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero-right {
+    display: block;
+    flex-shrink: 0;
+    width: 300px;
+  }
+
   .hero-title .title-line {
     font-size: clamp(56px, 8vw, 96px);
   }
@@ -991,6 +1002,7 @@ img {
   .hero-meta {
     flex-direction: row;
     gap: var(--space-md);
+    flex-wrap: wrap;
   }
 
   .hero-actions {
