@@ -537,11 +537,15 @@ img {
   margin-bottom: var(--space-xl);
 }
 
+.hero-desc {
+  margin-bottom: var(--space-lg);
+}
+
 .hero-desc p {
   font-size: 18px;
   line-height: 1.7;
   color: var(--text-secondary);
-  max-width: 500px;
+  max-width: 560px;
 }
 
 .hero-stats {
