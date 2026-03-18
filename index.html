@@ -6,38 +6,106 @@
   <title>Кто будет расти в 2026 году — Бесплатный эфир EGZ Academy</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+  <!-- Animated background orbs -->
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb orb--1"></div>
+    <div class="orb orb--2"></div>
+    <div class="orb orb--3"></div>
+  </div>
+
+  <!-- Decorative grid overlay -->
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       HEADER / NAV
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo-link">
+        <img src="assets/egz-logo.svg" alt="EGZ Academy" class="logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <span class="logo-text" style="display:none">EGZ</span>
+      </a>
+      <nav class="header-nav">
+        <a href="#program">Программа</a>
+        <a href="#pain-points">Для кого</a>
+        <a href="#final-block">Регистрация</a>
+      </nav>
+      <button class="btn-header" onclick="scrollToFinal()">Участвовать</button>
+    </div>
+  </header>
 
   <!-- ============================================================
        SECTION 1 — HERO
        ============================================================ -->
   <section class="hero">
     <div class="container">
-      <header>
-        <img src="assets/egz-logo.svg" alt="EGZ Academy" class="logo" onerror="this.style.display='none'">
-      </header>
+      <div class="hero-eyebrow reveal">
+        <span class="eyebrow-line"></span>
+        <span class="eyebrow-text">Бесплатный эфир</span>
+        <span class="eyebrow-line"></span>
+      </div>
 
-      <div class="hero-layout">
-        <div class="hero-content">
-          <h1 class="section-display reveal">Кто будет расти в 2026 году</h1>
-          <p class="hero-sub reveal">Одни маркетологи зарабатывают 500к–1 млн в месяц. Другие — топчутся на месте годами. Разница не в знаниях — в системе.</p>
-          <div class="reveal">
-            <span class="meta-badge">24 марта · 19:00 МСК · Бесплатно</span>
+      <h1 class="hero-title reveal">
+        <span class="title-line">Кто будет</span>
+        <span class="title-line title-line--accent">расти</span>
+        <span class="title-line">в 2026 году</span>
+      </h1>
+
+      <div class="hero-grid reveal">
+        <div class="hero-desc">
+          <p>Одни маркетологи зарабатывают 500к–1&nbsp;млн в&nbsp;месяц. Другие&nbsp;— топчутся на&nbsp;месте годами. Разница не&nbsp;в&nbsp;знаниях&nbsp;— в&nbsp;системе.</p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-value">500к+</span>
+            <span class="stat-label">доход участников</span>
           </div>
-          <div class="hero-speaker reveal">
-            <div class="avatar-wrap">
-              <img src="assets/vadim-photo.jpg" alt="Вадим Сорокин, основатель EGZ Academy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-              <div class="avatar-initials">ВС</div>
-            </div>
-            <p class="speaker-credit">Вадим Сорокин, основатель EGZ</p>
+          <div class="stat-item">
+            <span class="stat-value">5</span>
+            <span class="stat-label">блоков программы</span>
           </div>
-          <button class="btn-primary hero-cta reveal" onclick="scrollToFinal()">Зарегистрироваться</button>
         </div>
       </div>
+
+      <div class="hero-meta reveal">
+        <div class="meta-card">
+          <div class="meta-icon">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M10 5v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <span class="meta-main">24 марта · 19:00 МСК</span>
+            <span class="meta-sub">Бесплатно</span>
+          </div>
+        </div>
+        <div class="meta-card">
+          <div class="avatar-wrap">
+            <img src="assets/vadim-photo.jpg" alt="Вадим Сорокин" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="avatar-initials">ВС</div>
+          </div>
+          <div>
+            <span class="meta-main">Вадим Сорокин</span>
+            <span class="meta-sub">Основатель EGZ Academy</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-actions reveal">
+        <button class="btn-primary hero-cta" onclick="scrollToFinal()">
+          <span>Зарегистрироваться</span>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <a href="#program" class="btn-ghost">Узнать программу</a>
+      </div>
     </div>
+
+    <!-- Decorative corner marks -->
+    <div class="corner-mark corner-mark--tl" aria-hidden="true"></div>
+    <div class="corner-mark corner-mark--br" aria-hidden="true"></div>
   </section>
 
   <!-- ============================================================
@@ -45,15 +113,51 @@
        ============================================================ -->
   <section class="program" id="program">
     <div class="container">
-      <h2 class="section-heading reveal">Что разберём на эфире</h2>
-      <ol class="program-list">
-        <li class="program-item reveal">Позиционирование: как маркетологу оторваться от конкурентов и стать выбором №1 в своей нише</li>
-        <li class="program-item reveal">Лидген: системный поток входящих заявок без зависимости от сарафана</li>
-        <li class="program-item reveal">Продажи: как закрывать клиентов на высокий чек без скидок и давления</li>
-        <li class="program-item reveal">Удержание клиентов: LTV и повторные продажи — из клиента в партнёра</li>
-        <li class="program-item reveal">CRM и воронка: автоматизировать рутину и масштабировать без найма</li>
-      </ol>
-      <button class="btn-primary reveal" onclick="scrollToFinal()">Зарегистрироваться</button>
+      <div class="section-header reveal">
+        <span class="section-number">01</span>
+        <div>
+          <h2 class="section-title">Что разберём<br>на эфире</h2>
+          <p class="section-sub">5 системных блоков, которые превращают маркетолога-одиночку в предпринимателя с очередью из клиентов</p>
+        </div>
+      </div>
+
+      <div class="program-grid">
+        <div class="program-card reveal">
+          <span class="card-num">01</span>
+          <h3 class="card-title">Позиционирование</h3>
+          <p class="card-desc">Как маркетологу оторваться от конкурентов и стать выбором №1 в своей нише</p>
+          <div class="card-line"></div>
+        </div>
+        <div class="program-card reveal">
+          <span class="card-num">02</span>
+          <h3 class="card-title">Лидген</h3>
+          <p class="card-desc">Системный поток входящих заявок без зависимости от сарафана</p>
+          <div class="card-line"></div>
+        </div>
+        <div class="program-card reveal">
+          <span class="card-num">03</span>
+          <h3 class="card-title">Продажи</h3>
+          <p class="card-desc">Как закрывать клиентов на высокий чек без скидок и давления</p>
+          <div class="card-line"></div>
+        </div>
+        <div class="program-card reveal">
+          <span class="card-num">04</span>
+          <h3 class="card-title">Удержание клиентов</h3>
+          <p class="card-desc">LTV и повторные продажи — из клиента в партнёра</p>
+          <div class="card-line"></div>
+        </div>
+        <div class="program-card program-card--accent reveal">
+          <span class="card-num">05</span>
+          <h3 class="card-title">CRM и воронка</h3>
+          <p class="card-desc">Автоматизировать рутину и масштабировать без найма</p>
+          <div class="card-line"></div>
+        </div>
+      </div>
+
+      <button class="btn-primary reveal" onclick="scrollToFinal()">
+        <span>Зарегистрироваться</span>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
     </div>
   </section>
 
@@ -62,15 +166,51 @@
        ============================================================ -->
   <section class="pain-points" id="pain-points">
     <div class="container">
-      <h2 class="section-heading reveal">Кому стоит прийти</h2>
-      <ul class="pain-list">
-        <li class="pain-item reveal">Много знаешь, но мало зарабатываешь</li>
-        <li class="pain-item reveal">Нет команды или команда совсем маленькая</li>
-        <li class="pain-item reveal">Нет сильного оффера и сильной упаковки</li>
-        <li class="pain-item reveal">Генерируешь меньше 2-3 заявок в месяц на свои услуги</li>
-        <li class="pain-item reveal">Тебя используют как руки а не как стратега</li>
-      </ul>
-      <button class="btn-primary reveal" onclick="scrollToFinal()">Зарегистрироваться</button>
+      <div class="section-header reveal">
+        <span class="section-number">02</span>
+        <div>
+          <h2 class="section-title">Кому стоит<br>прийти</h2>
+          <p class="section-sub">Если хотя бы 2 пункта про вас — этот эфир изменит ваш подход к работе</p>
+        </div>
+      </div>
+
+      <div class="pain-grid">
+        <div class="pain-card reveal">
+          <div class="pain-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="pain-text">Много знаешь, но мало зарабатываешь</p>
+        </div>
+        <div class="pain-card reveal">
+          <div class="pain-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="pain-text">Нет команды или команда совсем маленькая</p>
+        </div>
+        <div class="pain-card reveal">
+          <div class="pain-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82zM7 7h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="pain-text">Нет сильного оффера и сильной упаковки</p>
+        </div>
+        <div class="pain-card reveal">
+          <div class="pain-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="pain-text">Генерируешь меньше 2–3 заявок в месяц на свои услуги</p>
+        </div>
+        <div class="pain-card reveal">
+          <div class="pain-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="pain-text">Тебя используют как руки, а&nbsp;не&nbsp;как стратега</p>
+        </div>
+      </div>
+
+      <button class="btn-primary reveal" onclick="scrollToFinal()">
+        <span>Зарегистрироваться</span>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
     </div>
   </section>
 
@@ -79,35 +219,43 @@
        ============================================================ -->
   <section class="final-block" id="final-block">
     <div class="container">
-      <h2 class="section-heading reveal">Успей зарегистрироваться — до эфира осталось</h2>
-      <div class="countdown-row reveal">
-        <div class="countdown-cell">
-          <span class="countdown-digit" id="cnt-days">00</span>
-          <span class="countdown-label">ДНИ</span>
-        </div>
-        <div class="countdown-cell">
-          <span class="countdown-digit" id="cnt-hours">00</span>
-          <span class="countdown-label">ЧАС</span>
-        </div>
-        <div class="countdown-cell">
-          <span class="countdown-digit" id="cnt-minutes">00</span>
-          <span class="countdown-label">МИН</span>
-        </div>
-        <div class="countdown-cell">
-          <span class="countdown-digit" id="cnt-seconds">00</span>
-          <span class="countdown-label">СЕК</span>
-        </div>
-      </div>
-      <span class="msk-tag">МСК</span>
+      <div class="final-inner">
+        <h2 class="final-title reveal">Успей зарегистрироваться</h2>
+        <p class="final-sub reveal">До эфира осталось</p>
 
-      <div class="post-deadline" style="display:none">
-        <p>Эфир уже идёт!</p>
-      </div>
+        <div class="countdown-row reveal">
+          <div class="countdown-cell">
+            <span class="countdown-digit" id="cnt-days">00</span>
+            <span class="countdown-label">дней</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-cell">
+            <span class="countdown-digit" id="cnt-hours">00</span>
+            <span class="countdown-label">часов</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-cell">
+            <span class="countdown-digit" id="cnt-minutes">00</span>
+            <span class="countdown-label">минут</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-cell">
+            <span class="countdown-digit" id="cnt-seconds">00</span>
+            <span class="countdown-label">секунд</span>
+          </div>
+        </div>
 
-      <div class="final-cta-stack">
-        <!-- TODO Phase 3: replace <botname> with real bot username -->
-        <a href="https://t.me/<botname>?start=landing" class="btn-primary reveal">Зарегистрироваться в боте</a>
-        <a href="https://t.me/vadimsorokin_egz" class="btn-ghost reveal">Задать вопрос</a>
+        <div class="post-deadline" style="display:none">
+          <p class="deadline-text">Эфир уже идёт!</p>
+        </div>
+
+        <div class="final-cta-stack reveal">
+          <a href="https://t.me/<botname>?start=landing" class="btn-primary btn-primary--large">
+            <span>Зарегистрироваться в боте</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="https://t.me/vadimsorokin_egz" class="btn-ghost">Задать вопрос</a>
+        </div>
       </div>
     </div>
   </section>
@@ -116,12 +264,16 @@
        STICKY CTA BAR
        ============================================================ -->
   <div class="sticky-cta">
-    <!-- TODO Phase 3: replace <botname> with real bot username -->
-    <a href="https://t.me/<botname>?start=landing" class="btn-primary sticky-btn">Зарегистрироваться</a>
+    <div class="sticky-inner">
+      <span class="sticky-text">24 марта · 19:00 МСК</span>
+      <a href="https://t.me/<botname>?start=landing" class="btn-primary sticky-btn">
+        <span>Участвовать</span>
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
   </div>
 
   <noscript>Включите JavaScript, чтобы таймер работал корректно.</noscript>
-
   <script src="js/main.js"></script>
 </body>
 </html>
