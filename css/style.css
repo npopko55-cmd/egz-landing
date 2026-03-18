@@ -755,6 +755,27 @@ img {
 }
 
 /* =============================================================
+   WAVE DIVIDER
+   ============================================================= */
+.wave-divider {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin: -1px 0;
+}
+
+.wave-img {
+  width: 100%;
+  height: auto;
+  min-height: 80px;
+  max-height: 200px;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+/* =============================================================
    PAIN POINTS
    ============================================================= */
 .pain-points {
