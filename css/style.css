@@ -1011,7 +1011,7 @@ img {
   .hero-right {
     display: block;
     flex-shrink: 0;
-    width: 300px;
+    width: 320px;
   }
 
   .hero-title .title-line {
