@@ -80,39 +80,40 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| LAND-01 | TBD | Pending |
-| LAND-02 | TBD | Pending |
-| LAND-03 | TBD | Pending |
-| LAND-04 | TBD | Pending |
-| LAND-05 | TBD | Pending |
-| LAND-06 | TBD | Pending |
-| LAND-07 | TBD | Pending |
-| LAND-08 | TBD | Pending |
-| LAND-09 | TBD | Pending |
-| LAND-10 | TBD | Pending |
-| LAND-11 | TBD | Pending |
-| LAND-12 | TBD | Pending |
-| LAND-13 | TBD | Pending |
-| LAND-14 | TBD | Pending |
-| LAND-15 | TBD | Pending |
-| BOT-01 | TBD | Pending |
-| BOT-02 | TBD | Pending |
-| BOT-03 | TBD | Pending |
-| BOT-04 | TBD | Pending |
-| BOT-05 | TBD | Pending |
-| BOT-06 | TBD | Pending |
-| SHEET-01 | TBD | Pending |
-| SHEET-02 | TBD | Pending |
-| MAIL-01 | TBD | Pending |
-| MAIL-02 | TBD | Pending |
-| MAIL-03 | TBD | Pending |
-| MAIL-04 | TBD | Pending |
+| SHEET-01 | Phase 1 | Pending |
+| SHEET-02 | Phase 1 | Pending |
+| BOT-01 | Phase 2 | Pending |
+| BOT-02 | Phase 2 | Pending |
+| BOT-03 | Phase 2 | Pending |
+| BOT-04 | Phase 2 | Pending |
+| BOT-05 | Phase 2 | Pending |
+| BOT-06 | Phase 2 | Pending |
+| LAND-01 | Phase 3 | Pending |
+| LAND-02 | Phase 3 | Pending |
+| LAND-03 | Phase 3 | Pending |
+| LAND-04 | Phase 3 | Pending |
+| LAND-05 | Phase 3 | Pending |
+| LAND-06 | Phase 3 | Pending |
+| LAND-07 | Phase 3 | Pending |
+| LAND-08 | Phase 3 | Pending |
+| LAND-09 | Phase 3 | Pending |
+| LAND-10 | Phase 3 | Pending |
+| LAND-11 | Phase 3 | Pending |
+| LAND-12 | Phase 3 | Pending |
+| LAND-13 | Phase 3 | Pending |
+| LAND-14 | Phase 3 | Pending |
+| LAND-15 | Phase 3 | Pending |
+| LAND-16 | Phase 3 | Pending |
+| MAIL-01 | Phase 4 | Pending |
+| MAIL-02 | Phase 4 | Pending |
+| MAIL-03 | Phase 4 | Pending |
+| MAIL-04 | Phase 4 | Pending |
 
 **Coverage:**
-- v1 requirements: 27 total
-- Mapped to phases: 0
-- Unmapped: 27 ⚠️
+- v1 requirements: 28 total
+- Mapped to phases: 28
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-18*
-*Last updated: 2026-03-18 after initial definition*
+*Last updated: 2026-03-18 — traceability completed, all requirements mapped*
