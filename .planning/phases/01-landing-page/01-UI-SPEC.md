@@ -44,7 +44,7 @@ Declared values (multiples of 4 only):
 Exceptions:
 - Touch targets for CTA buttons: minimum 48px height (mobile accessibility, WCAG 2.5.5)
 - Sticky CTA bar bottom-safe-area: `padding-bottom: env(safe-area-inset-bottom, 16px)` — iOS home indicator clearance
-- Countdown timer card cells: 60px wide × 72px tall (mobile), 80px × 96px (desktop) — sized for legibility of 2-digit numbers
+- Countdown timer card cells: 64px wide × 72px tall (mobile), 80px × 96px (desktop) — sized for legibility of 2-digit numbers
 
 ---
 
@@ -56,11 +56,11 @@ Font: Inter, loaded from Google Fonts. Fallback stack: `Inter, -apple-system, Bl
 |------|-------------|------|--------|-------------|-------|
 | Body | `--text-body` | 16px | 400 | 1.6 | Paragraph text in pain-points block, program items |
 | Label | `--text-label` | 14px | 400 | 1.4 | Meta line (date/time/free), countdown unit labels (ДНИ/ЧАС/МИН/СЕК), secondary CTA |
-| Heading | `--text-heading` | 20px | 600 | 1.3 | Block section headers, card titles, program item headings |
+| Heading | `--text-heading` | 20px | 700 | 1.3 | Block section headers, card titles, program item headings |
 | Display | `--text-display` | 36px mobile / 52px desktop | 700 | 1.15 | Hero headline "Кто будет расти в 2026 году" |
 
 Notes:
-- Only 2 weights used across all text: 400 (regular) and 600/700 (semibold/bold). 700 reserved for display headline only.
+- Exactly 2 weights used across all text: 400 (regular) and 700 (bold). 700 applies to Heading, Display, and countdown digits.
 - Letter-spacing for display: `-0.02em` (tighten large headlines per futuristic premium style).
 - All countdown digits: 48px mobile / 64px desktop, weight 700, font-variant-numeric: tabular-nums.
 
@@ -69,6 +69,8 @@ Notes:
 ## Color
 
 Dark futuristic theme. References: Vortek VR, Terrixa, FRZN. Source: CONTEXT.md + REQUIREMENTS.md (LAND-01, LAND-03).
+
+Primary visual anchor: hero headline at display size (36px/52px, weight 700, `--color-text`) is the dominant focal element on page load.
 
 | Role | CSS Variable | Value | Usage |
 |------|-------------|-------|-------|
